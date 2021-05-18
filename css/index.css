@@ -1,0 +1,590 @@
+
+/* BEGIN CSS - HERO */
+
+.containerHero {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroLeft {
+    width: 65%;
+    height: 100vh;
+    background-image: url("../images/wood_0001.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroLeft h1 {
+    color: #FFF;
+    padding: 30px;
+    font-size: 150px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgb(30, 34, 37) 0px 20px 30px -10px;
+    background-color: rgba(1, 6, 12, 0.6);
+}
+
+
+.heroRight {
+    width: 35%;
+    height: 100%;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav li {
+    margin-left: 1.5rem;
+    margin-bottom: 20px;
+}
+
+nav li a {
+    font-size: 2.5rem;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    text-transform: uppercase;
+}
+
+nav li a::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    left: 0;;
+    bottom: -3px;
+    width: 100%;
+    background: #fff;    
+}
+
+nav li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* END CSS - HERO */
+
+/* BEGIN CSS - MEDIA QUERIES HERO*/
+
+@media (max-width: 480px) {
+
+    .containerHero {
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .heroLeft {
+        width: 100%;
+        height: auto;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .heroLeft h1 {
+        padding: 30px;
+        font-size: 60px;
+        font-family: 'Anton', sans-serif;
+        text-transform: uppercase;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        box-shadow: rgb(30, 34, 37) 0px 20px 30px -10px;
+        background-color: rgba(1, 6, 12, 0.6);
+    }
+
+    .heroRight {
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    nav li {
+        margin-left: .9rem;
+        margin: 20px;
+        text-align: center;
+    }
+
+    nav li a {
+        font-size: 1.5rem;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Quicksand', sans-serif;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+}
+
+/* END CSS - MEDIA QUERIES HERO*/
+
+/* BEGIN CSS - CONTAINER ABOUT */
+
+.containerAbout {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.sectionAbout {
+    width: 80%;
+    height: 100vh;    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionAbout h1 {
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.sectionAbout p {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-weight: bold;
+    text-indent: 50px;
+    padding-top: 5px;    
+}
+
+/* END CSS - CONTAINER ABOUT*/
+
+/* BEGIN CSS - MEDIA QUERIES ABOUT*/
+
+@media (max-width: 480px) { 
+
+    .containerAbout {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sectionAbout {
+        width: 90%;
+        height: auto;    
+        margin-bottom: 30px;
+    }
+
+    .sectionAbout h1 {
+        width: 220px;
+        font-size: 28px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .sectionAbout p {
+        font-size: 15px;
+        text-align: center;
+        text-indent: 0px;
+    }
+    
+}
+
+/* END CSS - MEDIA QUERIES ABOUT*/
+
+/* BEGIN CSS - CONTAINER PROFESSIONAL */
+
+.containerProfessional {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionProfessional {
+    width: 80%;
+    height: 60vh;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerProfessional h1 {
+    width: 20%;
+    border: 2px solid #fff;
+    color: #FFF;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.containerProfessional p {
+    font-size: 70px;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+/* END CSS - CONTAINER PROFESSIONAL */
+
+/* BEGIN CSS - MEDIA QUERIES PROFESSIONAL */
+
+@media (max-width: 480px) {
+    
+    .sectionProfessional {
+        width: 100%;
+        height: auto;
+    }   
+
+    .containerProfessional h1 {
+        width: 220px;
+        font-size: 28px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .containerProfessional p {
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* END CSS - MEDIA QUERIES PROFESSIONAL */
+
+/* BEGIN CSS - CONTAINER ACADEMIC */
+
+.containerAcademic {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerAcademic h1 {
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.sectionAcademic {
+    width: 80%;
+    height: 60vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sectionAcademicTitle {
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+
+.sectionAcademicField {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+}
+
+/* END CSS - CONTAINER ACADEMIC */
+
+/* BEGIN CSS - MEDIA QUERIES ACADEMIC */
+
+@media (max-width: 480px) {
+
+    .containerAcademic {
+        height: auto;
+    }
+
+    .containerAcademic h1 {
+        width: 220px;
+        font-size: 28px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .sectionAcademic {
+        height: auto;
+    }
+    
+    .sectionAcademicTitle {
+        font-size: 28px;
+        padding-top: 10px;
+    }
+    
+    .sectionAcademicField {
+        font-size: 17px;
+        padding-top: 10px;
+    }        
+}
+
+/* END CSS - MEDIA QUERIES ACADEMIC  */
+
+/* BEGIN CSS - CONTAINER XP */
+
+.containerXP {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionXP {
+    width: 90%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.containerXP h1 {
+    width: 20%;
+    border: 2px solid #fff;
+    color: #FFF;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.cardXP {
+    width: 310px;
+    height: 55vh;
+    background-color: #FFF;
+    margin:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cardXP h3 {
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 6px solid #000;
+    padding-bottom: 5px;
+    text-transform: uppercase;    
+}
+
+.cardTitle {
+    color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;    
+}
+
+.cardField {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    text-transform: uppercase;    
+}
+
+/* END CSS - CONTAINER XP */
+
+/* BEGIN CSS - MEDIA QUERIES XP */
+
+@media (max-width: 480px) {
+
+    .containerXP h1 {
+        width: 220px;
+        font-size: 30px;
+        padding: 30px;
+    }
+
+    .cardXP {
+        width: 310px;
+        height: 280px;
+    }    
+
+    .cardXP h3 {
+        font-size: 27px;
+    }
+
+    .cardTitle {
+        font-size: 22px;
+    }
+
+    .cardField {
+        font-size: 20px;
+    }
+}
+
+/* END CSS - MEDIA QUERIES XP */
+
+/* BEGIN CSS - CONTAINER SOCIAL */
+
+.containerSocial {
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionSocial {
+    width: 80%;
+    height: 40vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSocial h1 {
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sectionSocial img {
+    transform: scale(50%);
+
+}
+
+/* END CSS - CONTAINER SOCIAL */
+
+/* BEGIN CSS - MEDIA QUERIES SOCIAL */
+
+@media (max-width: 480px) {
+
+    .containerSocial {
+        width: 100%;
+        height: auto;
+    }
+    .sectionSocial {
+        width: 80%;
+        height: auto;
+    }
+
+    .containerSocial h1 {
+        width: 220px;
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    .sectionSocial img {
+        transform: scale(45%);
+    }
+
+}
+
+/* END CSS - MEDIA QUERIES SOCIAL */
+
+/* BEGIN CSS - FOOTER*/
+
+.footer {
+    width: 100%;
+    height: 15vh;
+    background-color: #000;
+}
+
+.footer p {
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/* END CSS - FOOTER*/
