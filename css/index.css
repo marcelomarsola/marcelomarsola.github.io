@@ -536,9 +536,10 @@ nav li a:hover {
     margin-right: auto;
 }
 
-.sectionSocial img {
-    transform: scale(50%);
-
+.sectionSocial i {
+    color: #000;
+    font-size: 130px;
+    margin: 20px;
 }
 
 /* END CSS - CONTAINER SOCIAL */
@@ -561,11 +562,11 @@ nav li a:hover {
         font-size: 35px;
         margin-top: 20px;
     }
-
-    .sectionSocial img {
-        transform: scale(35%);
-        -ms-transform: scale(35%);
-        -webkit-transform: scale(35%);
+    
+    .sectionSocial i {
+        color: #000;
+        font-size: 130px;
+        margin: 20px;
     }
 
 }
