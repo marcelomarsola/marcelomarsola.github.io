@@ -563,9 +563,9 @@ nav li a:hover {
     }
 
     .sectionSocial img {
-        transform: scale(65%);
-        -ms-transform: scale(65%);
-        -webkit-transform: scale(65%);
+        transform: scale(35%);
+        -ms-transform: scale(35%);
+        -webkit-transform: scale(35%);
     }
 
 }
