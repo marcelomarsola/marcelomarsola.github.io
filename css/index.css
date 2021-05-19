@@ -564,6 +564,8 @@ nav li a:hover {
 
     .sectionSocial img {
         transform: scale(65%);
+        -ms-transform: scale(65%);
+        -webkit-transform: scale(65%);
     }
 
 }
