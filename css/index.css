@@ -73,6 +73,7 @@ nav li a::after {
 nav li a:hover {
     background-color: #fff;
     color: #000;
+    transition: background-color 2s ease-out;
 }
 
 /* END CSS - HERO */
@@ -543,6 +544,135 @@ nav li a:hover {
 }
 
 /* END CSS - MEDIA QUERIES ACADEMIC  */
+
+/* BEGIN CSS - CONTAINER COURSES */
+
+.containerCourses {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerCourses h1 {
+    width: 20%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    color: #FFF;
+    background-color: #000;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.sectionCourses {
+    width: 90%;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sectionCoursesCard {
+    width: 50%;
+    height: 24%;
+    background-color: #000;
+}
+
+.sectionCoursesCard h2 {
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;  
+}
+
+.sectionCoursesCard p {
+    color: #000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hyde {
+    display: unset;
+}
+
+.sectionCoursesCard:hover {
+    display: block;
+    background-color: #FFF;
+    color: #000;
+    text-align: center;
+    transition: background-color 1s ease-out;
+}
+
+/* BEGIN CSS - CONTAINER COURSES */
+
+/* BEGIN CSS - MEDIA QUERIES COURSES  */
+
+/* MOBILE PHONE */
+
+@media (max-width: 1024px) {
+    
+    .containerCourses {
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .containerCourses h1 {  
+        width: 220px;
+        font-size: 28px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .sectionCourses {
+        height: auto;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sectionCoursesCard {
+        width: 90%;
+    }
+
+    .sectionCoursesCard h2 {
+        font-size: 20px;
+    }
+
+    .sectionCoursesCard p {
+        font-size: 18px;
+    }
+}
+
+/* MOBILE - TABLETS */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+
+
+
+}
+
+/* END CSS - MEDIA QUERIES COURSES  */
 
 /* BEGIN CSS - CONTAINER XP */
 
